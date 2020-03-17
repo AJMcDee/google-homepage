@@ -1,11 +1,16 @@
 body {
     font-family: arial,sans-serif;
+    width: 95%;
 }
 
 nav {
     font-size: 13px;
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    line-height: 35px;
 }
 
 ul {
@@ -20,23 +25,22 @@ li {
 
 
 footer {
-    display: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-.navcontainer {
+    position: fixed;
     display: flex;
-    width: 100%;
     justify-content: space-between;
-    line-height: 28px;
+    line-height: 40px;
+    width: 95%;
+    bottom: 0;
+    font-size: 14px;
+    color: #5F6368;
+    margin: 0px 10px;
 }
 
 .searchbutton {
     border: none;
     background-color: #f2f2f2;
     color: #5F6368;
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
     line-height: 27px;
     height: 36px;
@@ -44,22 +48,17 @@ footer {
 }
 
 
-#navleft {
-    flex-basis: auto;
-}
 
 #navleft li {
-    padding: 0px 15px 0px 0px;
     opacity: 0.75;
 }
 
-#navright {
-    flex-basis: auto;
+nav li {
+    padding: 0px 0px 0px 15px;
 }
 
-#navright li{
-    text-align: right;
-    padding: 0px 0px 0px 15px;
+footer li {
+    padding: 0px 0px 0px 27px;
 }
 
 #signin {
@@ -75,7 +74,7 @@ footer {
 #logo {
     height: 92px;
     width: 272px;
-    padding-top: 109px;
+    padding-top: 130px;
 }
 
 #searchfield {
