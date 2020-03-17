@@ -1,0 +1,35 @@
+
+
+.navcontainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid green;
+}
+
+#navleft {
+    background-color: blue;
+    flex-basis: auto;
+    display: flex;
+
+}
+
+#navright {
+    background-color: red;
+    flex-basis: auto;
+}
+
+#navright li{
+    text-align: right;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+      display: inline;
+  }
