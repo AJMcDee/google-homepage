@@ -1,28 +1,53 @@
+body {
+    font-family: arial,sans-serif;
+}
+
+nav {
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.maincontainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
 
 .navcontainer {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    border: 1px solid green;
+    line-height: 28px;
 }
 
 #navleft {
-    background-color: blue;
     flex-basis: auto;
-    display: flex;
+}
 
+#navleft li {
+    padding: 0px 15px 0px 0px;
 }
 
 #navright {
-    background-color: red;
     flex-basis: auto;
 }
 
 #navright li{
     text-align: right;
+    padding: 0px 0px 0px 15px;
 }
 
+#signin {
+    background-color: #3c78dc;
+    color: #fff;
+    font-weight: bold;
+    line-height: 28px;
+    border-radius: 2px;
+    border: 1px solid #4285f4;
+    padding: 0px 12px;
+}
 
 ul {
     list-style-type: none;
@@ -30,6 +55,6 @@ ul {
     padding: 0;
   }
 
-  li {
+li {
       display: inline;
   }
