@@ -11,6 +11,7 @@ nav {
     width: 100%;
     justify-content: space-between;
     line-height: 35px;
+    align-items: center;
 }
 
 ul {
@@ -23,17 +24,24 @@ li {
       display: inline;
   }
 
+a:hover {
+    text-decoration: underline;
+}
 
 footer {
     position: fixed;
     display: flex;
     justify-content: space-between;
     line-height: 40px;
-    width: 95%;
+    width: 100%;
+    right: 0;
     bottom: 0;
     font-size: 14px;
     color: #5F6368;
-    margin: 0px 10px;
+    background-color: #f2f2f2;
+    margin: 0px;
+    padding: 10px;
+    border-top: 1px solid #e4e4e4;
 }
 
 .searchbutton {
@@ -57,6 +65,10 @@ nav li {
     padding: 0px 0px 0px 15px;
 }
 
+nav img {
+    vertical-align: middle;
+}
+
 footer li {
     padding: 0px 0px 0px 27px;
 }
@@ -78,7 +90,10 @@ footer li {
 }
 
 #searchfield {
-    width: 482px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 485px;
     height: 44px;
     border-radius: 24px;
     border: solid 1px #dfe1e5;
@@ -91,4 +106,13 @@ footer li {
     width: 387px;
     height: 34px;
     border: none;
+}
+
+#searchfield img {
+    display: flex;
+    align-self: center;
+}
+
+#micicon {
+    padding-top: 3px;
 }
